@@ -2,11 +2,10 @@
 Flutter Responsive Screens
 
 ffmpeg \
--framerate 10 -loop 1 -t 5 -i .png \
--framerate 10 -loop 1 -t 5 -i 2.png \
--framerate 10 -loop 1 -t 5 -i 3.png \
--framerate 10 -loop 1 -t 5 -i 4.png \
--framerate 10 -loop 1 -t 5 -i 5.png \
+-framerate 10 -loop 1 -t 5 -i [](https://github.com/Sarveshk76/ResponsiveScreensFlutter/blob/main/images/light_mobile.png) \
+-framerate 10 -loop 1 -t 5 -i [](https://github.com/Sarveshk76/ResponsiveScreensFlutter/blob/main/images/light_tablet.png) \
+-framerate 10 -loop 1 -t 5 -i [](https://github.com/Sarveshk76/ResponsiveScreensFlutter/blob/main/images/light_desktop.png) \
+
 -filter_complex \
 "[1]format=rgba,fade=d=1:t=in:alpha=1,setpts=PTS-STARTPTS+4/TB[f0]; \
  [2]format=rgba,fade=d=1:t=in:alpha=1,setpts=PTS-STARTPTS+8/TB[f1]; \
