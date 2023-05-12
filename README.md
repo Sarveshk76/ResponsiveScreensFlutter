@@ -1,7 +1,7 @@
 # ResponsiveScreensFlutter
 Flutter Responsive Screens
 
-  ![Alt text](https://github.com/Sarveshk76/ResponsiveScreensFlutter/blob/main/images/light_mobile.png "Optional title")
+  ![Alt text](./images/light_mobile.png "Optional title")
 ![Image](./images/light_tablet.png)
 ![Image](./images/light_desktop.png)
 
